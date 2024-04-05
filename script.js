@@ -17,7 +17,7 @@ menuBtn.addEventListener("click", () => {
    line3.classList.remove("moveminusdeg");
    menuCon.classList.remove("menu-transition");
    for(let i=0;i < liTags.length;i++ ) {
-     liTags[i].classList.remove("limoveUp");
+     liTags[i].classList.remove("limoveDown");
    };
    opening = false;
   }else {
@@ -26,7 +26,7 @@ menuBtn.addEventListener("click", () => {
    line3.classList.add("moveminusdeg");
    menuCon.classList.add("menu-transition");
    for(let i=0;i < liTags.length;i++ ) {
-     liTags[i].classList.add("limoveUp");
+     liTags[i].classList.add("limoveDown");
    };
    opening = true;
   };
