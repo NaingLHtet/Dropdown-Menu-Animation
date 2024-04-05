@@ -86,11 +86,11 @@ li {
   user-select: none;
 }
 
-.limoveUp {
+.limoveDown {
   transform: translateY(20px);
 }
 
-.limoveUp:hover {
+.limoveDown:hover {
   color: #49e5f7;
   transform: scale(1.2);
 }
